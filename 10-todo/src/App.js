@@ -1,7 +1,7 @@
 import React, { useState, useEffect } from "react";
 import List from "./List";
 import Alert from "./Alert";
-import { FaCloudMeatball } from "react-icons/fa";
+// import { FaCloudMeatball } from "react-icons/fa";
 
 const getLocalStorage = () =>{
   let List = localStorage.getItem('list');
